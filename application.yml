@@ -13,3 +13,7 @@ spring:
       host: localhost
       port: 27017
       database: SMC
+      
+spring:
+  application:
+    name: EMPLOYE-SERVICE
