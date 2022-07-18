@@ -1,6 +1,1 @@
-spring:
-  data:
-    mongodb:
-      database: SMC
-      host: localhost
-      port: 27017
+
