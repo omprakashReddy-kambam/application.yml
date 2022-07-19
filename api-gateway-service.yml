@@ -1,14 +1,3 @@
 spring:
-#   main: 
-#    web-application-type: reactive
-  cloud:
-    gateway:
-      routes:
-        - id: EMPLOYE-SERVICE
-          uri: lb://EMPLOYE-SERVICE
-          predicates:
-            - Path=/employees/**
-        - id: ROLE-SERVICE
-          uri: lb://ROLE-SERVICE
-          predicates: 
-            - Path=/roles/**
+  application:
+    name: API-GATEWAY
