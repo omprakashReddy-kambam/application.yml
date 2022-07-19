@@ -15,10 +15,6 @@ spring:
       database: SMC
       
 spring:
-  main: 
-   web-application-type: reactive
-  application:
-    name: API-GATEWAY
   cloud:
     gateway:
       routes:
